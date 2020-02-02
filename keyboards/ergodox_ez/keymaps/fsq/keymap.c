@@ -31,6 +31,50 @@ enum custom_keycodes {
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+
+	/*[1] = LAYOUT_ergodox(*/
+			/*KC_ESCAPE,  KC_1,   KC_2,     KC_3,         KC_4,       KC_5,         KC_F14,*/
+			/*KC_TAB,     KC_Q,   KC_W,     KC_E,         KC_R,       KC_T,         KC_F23,*/
+			/*MO(3),      KC_A,   KC_S,     KC_D,         KC_F,       KC_G,*/
+			/*KC_LSHIFT,  KC_Z,   KC_X,     KC_C,         KC_V,       KC_B,         KC_F24,*/
+			/*KC_LCTL,    KC_F8,  KC_LALT,  KC_F14,      KC_F13,*/
+
+			/*KC_HOME,  TO(0),  KC_F15,  KC_SPACE, KC_LCTL,  KC_LALT,*/
+
+			/*KC_6,       KC_7,   KC_8,     KC_9,         KC_0,       KC_MINUS,   KC_EQUAL,*/
+			/*KC_F24,     KC_Y,   KC_U,     KC_I,         KC_O,       KC_P,       KC_BSLASH,*/
+			/*KC_H,   KC_J,     KC_K,         KC_L,       KC_SCOLON,  KC_QUOTE,*/
+			/*KC_F17,     KC_N,   KC_M,     KC_COMMA,     KC_DOT,     KC_SLASH,   KC_RSHIFT,*/
+			/*KC_DELETE,  KC_F19,   KC_LGUI,       KC_F21,     KC_F22,*/
+
+			/*KC_F17,   KC_F18, KC_PGUP,  KC_PGDOWN,    KC_ENTER,   KC_BSPACE*/
+			/*),*/
+	/*[2] = LAYOUT_ergodox(*/
+			/*KC_ESCAPE,  KC_F1,     KC_F2,     KC_F3,     KC_F4,     KC_F5,     KC_C,*/
+			/*KC_TAB,     KC_Q,      KC_W,      KC_E,      KC_R,      KC_T,      TO(0),*/
+			/*MO(3),      KC_1,      KC_2,      KC_3,      KC_4,      KC_5,*/
+			/*KC_LSHIFT,  KC_6,      KC_7,      KC_8,      KC_9,      KC_0,     KC_NO,*/
+			/*KC_LCTL,    KC_F8,     KC_LALT,   KC_I,      KC_S,*/
+
+			/*KC_MS_BTN3, TO(1),  KC_HOME,  KC_SPACE, KC_LSHIFT,  KC_END,*/
+
+			/*KC_NO,     KC_NUMLOCK,     KC_KP_SLASH,    KC_KP_ASTERISK, KC_KP_MINUS,     KC_NO,   KC_NO,*/
+			/*TO(0),     KC_KP_7,        KC_KP_8,        KC_KP_9,        KC_KP_PLUS,      KC_NO,   KC_NO,*/
+			/*KC_KP_4,        KC_KP_5,        KC_KP_6,        KC_EQUAL,        KC_NO,  KC_NO,*/
+			/*KC_NO,     KC_KP_1,        KC_KP_2,        KC_KP_3,        KC_KP_ENTER,     KC_NO,  KC_NO,*/
+			/*KC_KP_0,        KC_KP_DOT,      KC_NO,          KC_NO,           KC_NO,*/
+
+			/*TO(0), KC_F18, KC_PGUP,  KC_PGDOWN,  KC_ENTER, KC_BSPACE*/
+			/*),*/
+
+
+
+
+
+
+
+
+
   [0] = LAYOUT_ergodox_pretty(
     KC_EQUAL  , KC_1         , KC_2     , KC_3            , KC_4    , KC_5     , KC_LEFT				 , KC_RIGHT , KC_6        , KC_7        , KC_8     , KC_9       , KC_0             , KC_MINUS  ,
     KC_DELETE , KC_Q         , KC_W     , KC_E            , KC_R    , KC_T     , TG(1)					 , TG(1)    , KC_Y        , KC_U        , KC_I     , KC_O       , KC_P             , KC_BSLASH ,
